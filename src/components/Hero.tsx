@@ -37,8 +37,10 @@ export default function Hero() {
           </h1>
 
           {/* Exact client text */}
-          <p className="max-w-5xl mx-auto text-base md:text-xl text-white mb-5 leading-snug drop-shadow-[0_2px_12px_rgba(0,0,0,0.55)]">
-            We restore oxidized and faded gelcoat and paint, remove swirl marks, and bring back a deep, marine-grade gloss.
+          <p className="text-lg md:text-xl text-gray-100 mb-6 drop-shadow-[0_2px_12px_rgba(0,0,0,0.55)]">
+            We restore oxidized and faded gelcoat and paint, remove swirl marks,
+            <br className="hidden md:block" />
+            and bring back a deep, <span className="whitespace-nowrap">marine-grade gloss.</span>
           </p>
 
           <div className="max-w-3xl mx-auto text-sm md:text-base text-white leading-relaxed mb-9 drop-shadow-[0_2px_12px_rgba(0,0,0,0.55)]">
