@@ -1,5 +1,5 @@
 // src/components/Contact.tsx
-import { Phone, Mail, Clock, Instagram, Facebook } from 'lucide-react';
+import { Phone, Mail, MapPin, Clock, Instagram, Facebook } from 'lucide-react';
 
 export default function Contact() {
   return (
@@ -47,7 +47,34 @@ export default function Contact() {
             </div>
 
             <div className="space-y-6 mb-8">
+              <div className="flex items-start gap-4">
+                <MapPin className="w-6 h-6 text-blue-400 flex-shrink-0 mt-1" />
+                <div>
+                  <div className="text-sm text-gray-400 mb-1">Service Area</div>
+                  <div className="text-lg text-white">
+                    Myrtle Beach &amp; Surrounding Areas
+                  </div>
+                </div>
+              </div>
 
+              {/* HOURS: только правка, о которой сказал Андрей */}
+              <div className="flex items-start gap-4">
+                <Clock className="w-6 h-6 text-blue-400 flex-shrink-0 mt-1" />
+                <div>
+                  <div className="text-sm text-gray-400 mb-2">Hours</div>
+                  <div className="text-lg font-semibold text-white">
+                    Available 24/7
+                  </div>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4">
+                <MapPin className="w-6 h-6 text-blue-400 flex-shrink-0 mt-1" />
+                <div>
+                  <div className="text-lg text-white">
+                    
+                  </div>
+                </div>
               </div>
             </div>
 

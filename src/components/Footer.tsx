@@ -1,4 +1,4 @@
-import { Phone, Mail, MapPin, Instagram, Facebook } from 'lucide-react';
+import { Phone, Mail, Instagram, Facebook } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -26,11 +26,7 @@ export default function Footer() {
                 <Mail className="w-4 h-4" />
                 info@leatherclinic.org
               </a>
-              <div className="flex items-start gap-2 text-gray-400">
-                <MapPin className="w-4 h-4 flex-shrink-0 mt-0.5" />
-                <span></span>
-              </div>
-            </div>
+</div>
           </div>
 
           <div>
@@ -59,7 +55,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 pt-8 text-center text-sm text-gray-400">
-          <p>&copy; 2025 The Scratch Lab. All rights reserved.</p>
+          <p>&copy; 2026 The Scratch Lab. All rights reserved.</p>
         </div>
       </div>
     </footer>
