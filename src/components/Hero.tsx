@@ -18,7 +18,7 @@ export default function Hero() {
       <div className="absolute inset-0">
         <img
           src="/img/hero-boat-rv.jpg"
-          alt="Paint correction and ceramic coating"
+          alt="Mobile boat and RV detailing service"
           className="w-full h-full object-cover"
         />
       </div>
@@ -27,32 +27,26 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/70 to-black/90" />
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(255,255,255,0.06),_transparent_55%)]" />
 
-      <div className="container mx-auto px-4 py-20 relative z-10">
-        <div className="max-w-4xl mx-auto text-center">
-          {/* Mobile label (чуть крупнее) */}
-          <div className="mb-3">
-            <span className="inline-block text-base md:text-lg text-white/80 uppercase tracking-[0.35em]">
-              Mobile
-            </span>
-          </div>
-
-          {/* Title */}
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight drop-shadow-[0_2px_18px_rgba(0,0,0,0.65)]">
-            MOBILE BOAT & RV DETAILING
+      <div className="container mx-auto px-4 py-16 md:py-20 relative z-10">
+        <div className="max-w-5xl mx-auto text-center">
+          {/* Title: only the 2 client lines, no extra "Mobile" label */}
+          <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white mb-5 leading-tight drop-shadow-[0_2px_18px_rgba(0,0,0,0.65)]">
+            MOBILE BOAT &amp; RV DETAILING
             <br />
-            <span className="text-blue-300">Surface Restoration & Protection</span>
+            <span className="text-blue-300">Surface Restoration &amp; Protection</span>
           </h1>
 
-          {/* Description (пунктуация + a deep gloss) */}
-          <p className="text-lg md:text-xl text-gray-100 mb-6 drop-shadow-[0_2px_12px_rgba(0,0,0,0.55)]">
-            Restore dull and faded paint, remove swirl marks,{' '}
-            <br className="hidden md:block" />
-            and bring back a deep gloss — <span className="font-semibold">without repainting.</span>
+          {/* Exact client text */}
+          <p className="text-base md:text-xl text-white mb-5 drop-shadow-[0_2px_12px_rgba(0,0,0,0.55)]">
+            We restore oxidized and faded gelcoat and paint, remove swirl marks, and bring back a deep, marine-grade gloss.
           </p>
 
-          <div className="text-sm md:text-base text-gray-200 space-y-1 mb-10">
-            <p>Professional mobile service — we come to your home, marina, or storage facility. Boat must be out of the water and accessible.</p>
-            <p>Serving Myrtle Beach 🏝️ and the surrounding coastal areas.</p>
+          <div className="text-sm md:text-base text-white leading-relaxed mb-9 drop-shadow-[0_2px_12px_rgba(0,0,0,0.55)]">
+            <p>Professional mobile service —</p>
+            <p>we come to your home, marina,</p>
+            <p>storage facility, or dock.</p>
+            <p>Serving Myrtle Beach 🏝️</p>
+            <p>and the surrounding coastal areas.</p>
           </div>
 
           {/* Buttons */}
@@ -89,14 +83,14 @@ export default function Hero() {
               <li className="flex gap-3">
                 <span className="mt-2 h-2 w-2 rounded-full shrink-0" style={{ backgroundColor: red }} />
                 <span>
-                  <span className="font-semibold">One-Step</span> MOBILE BOAT & RV DETAILING (Paint Enhancement)
+                  <span className="font-semibold">One-Step</span> MOBILE BOAT &amp; RV DETAILING (Paint Enhancement)
                 </span>
               </li>
 
               <li className="flex gap-3">
                 <span className="mt-2 h-2 w-2 rounded-full shrink-0" style={{ backgroundColor: red }} />
                 <span>
-                  <span className="font-semibold">Two-Step</span> MOBILE BOAT & RV DETAILING (Deep Gloss &amp; Clarity)
+                  <span className="font-semibold">Two-Step</span> MOBILE BOAT &amp; RV DETAILING (Deep Gloss &amp; Clarity)
                 </span>
               </li>
 
