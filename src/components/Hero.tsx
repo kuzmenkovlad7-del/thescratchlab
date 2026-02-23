@@ -17,7 +17,7 @@ export default function Hero() {
       {/* Background */}
       <div className="absolute inset-0">
         <img
-          src="/img/hero-truck.jpg"
+          src="/img/hero-boat-rv.jpg"
           alt="Paint correction and ceramic coating"
           className="w-full h-full object-cover"
         />
@@ -38,9 +38,9 @@ export default function Hero() {
 
           {/* Title */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight drop-shadow-[0_2px_18px_rgba(0,0,0,0.65)]">
-            Paint Correction
+            MOBILE BOAT & RV DETAILING
             <br />
-            <span className="text-blue-300">Ceramic Coating</span>
+            <span className="text-blue-300">Surface Restoration & Protection</span>
           </h1>
 
           {/* Description (пунктуация + a deep gloss) */}
@@ -51,8 +51,8 @@ export default function Hero() {
           </p>
 
           <div className="text-sm md:text-base text-gray-200 space-y-1 mb-10">
-            <p>Professional mobile service — we come to you</p>
-            <p>Serving Myrtle Beach • Surrounding Areas</p>
+            <p>Professional mobile service — we come to your home, marina, or storage facility. Boat must be out of the water and accessible.</p>
+            <p>Serving Myrtle Beach 🏝️ and the surrounding coastal areas.</p>
           </div>
 
           {/* Buttons */}
@@ -89,14 +89,14 @@ export default function Hero() {
               <li className="flex gap-3">
                 <span className="mt-2 h-2 w-2 rounded-full shrink-0" style={{ backgroundColor: red }} />
                 <span>
-                  <span className="font-semibold">One-Step</span> Paint Correction (Paint Enhancement)
+                  <span className="font-semibold">One-Step</span> MOBILE BOAT & RV DETAILING (Paint Enhancement)
                 </span>
               </li>
 
               <li className="flex gap-3">
                 <span className="mt-2 h-2 w-2 rounded-full shrink-0" style={{ backgroundColor: red }} />
                 <span>
-                  <span className="font-semibold">Two-Step</span> Paint Correction (Deep Gloss &amp; Clarity)
+                  <span className="font-semibold">Two-Step</span> MOBILE BOAT & RV DETAILING (Deep Gloss &amp; Clarity)
                 </span>
               </li>
 
