@@ -57,7 +57,6 @@ export default function Contact() {
                 </div>
               </div>
 
-              {/* HOURS: только правка, о которой сказал Андрей */}
               <div className="flex items-start gap-4">
                 <Clock className="w-6 h-6 text-blue-400 flex-shrink-0 mt-1" />
                 <div>
@@ -71,8 +70,9 @@ export default function Contact() {
               <div className="flex items-start gap-4">
                 <MapPin className="w-6 h-6 text-blue-400 flex-shrink-0 mt-1" />
                 <div>
+                  <div className="text-sm text-gray-400 mb-1">Address</div>
                   <div className="text-lg text-white">
-                    
+                    Myrtle Beach, SC 29577
                   </div>
                 </div>
               </div>

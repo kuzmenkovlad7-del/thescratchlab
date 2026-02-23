@@ -1,4 +1,4 @@
-import { Phone, Mail, Instagram, Facebook } from 'lucide-react';
+import { Phone, Mail, MapPin, Instagram, Facebook } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -18,15 +18,27 @@ export default function Footer() {
           <div>
             <h3 className="text-white font-semibold mb-4">Contact</h3>
             <div className="space-y-3 text-sm">
-              <a href="tel:+12673793167" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
+              <a
+                href="tel:+12673793167"
+                className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors"
+              >
                 <Phone className="w-4 h-4" />
                 267-379-3167
               </a>
-              <a href="mailto:info@leatherclinic.org" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
+
+              <a
+                href="mailto:info@leatherclinic.org"
+                className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors"
+              >
                 <Mail className="w-4 h-4" />
                 info@leatherclinic.org
               </a>
-</div>
+
+              <div className="flex items-start gap-2 text-gray-400">
+                <MapPin className="w-4 h-4 flex-shrink-0 mt-0.5" />
+                <span>Myrtle Beach, SC 29577</span>
+              </div>
+            </div>
           </div>
 
           <div>
@@ -41,6 +53,7 @@ export default function Footer() {
               >
                 <Instagram className="w-5 h-5 text-white" />
               </a>
+
               <a
                 href="https://www.facebook.com/profile.php?id=61572483165003"
                 target="_blank"
