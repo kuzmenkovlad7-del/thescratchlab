@@ -31,7 +31,7 @@ export default function Hero() {
         <div className="max-w-6xl mx-auto text-center">
           {/* Title */}
           <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white mb-5 leading-tight drop-shadow-[0_2px_18px_rgba(0,0,0,0.65)]">
-            MOBILE BOAT &amp; RV DETAILING
+            MOBILE BOAT, CAR &amp; RV DETAILING
             <br />
             <span className="text-blue-300">Surface Restoration &amp; Protection</span>
           </h1>
