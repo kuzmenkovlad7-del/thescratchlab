@@ -23,7 +23,16 @@ export default function Gallery() {
 
   const workImages = useMemo(() => {
     // 18 новых фото (добавляем, не заменяем старые)
-    const newOnes = Array.from({ length: 18 }, (_, i) => `/img/gallery/new-${pad2(i + 1)}.jpg`);
+    const newOnes = [
+    '/img/gallery/scratchlab-boat-01.jpg',
+    '/img/gallery/scratchlab-boat-02.jpg',
+    '/img/gallery/scratchlab-boat-03.jpg',
+    '/img/gallery/scratchlab-boat-04.jpg',
+    '/img/gallery/scratchlab-boat-05.jpg',
+    '/img/gallery/scratchlab-boat-06.jpg',
+    '/img/gallery/scratchlab-boat-07.jpg',
+    ...Array.from({ length: 18 }, (_, i) => `/img/gallery/new-${pad2(i + 1)}.jpg`),
+  ];
 
     const existing = [
       '/img/gallery/gallery-01.jpeg',
