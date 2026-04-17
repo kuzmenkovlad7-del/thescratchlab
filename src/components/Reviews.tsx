@@ -283,7 +283,7 @@ export default function Reviews() {
                       setForm(f => ({ ...f, city: e.target.value }))
                     }
                     className="w-full px-3 py-2 bg-gray-950 border border-gray-700 rounded-lg text-white text-sm focus:outline-none focus:border-blue-500"
-                    placeholder="Philadelphia, Bucks County…"
+                    placeholder="coastal areas, Myrtle Beach area…"
                   />
                 </div>
               </div>
